@@ -14,32 +14,18 @@ function TrainingApi() {
 
           <div className="clearfix-custom">
             <div className="logo-container rounded">
-              <a
-                href="https://trainingapi.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={trainingApiLogo}
-                  alt="TrainingApi Logo"
-                  className="portfolio-logo img-fluid"
-                />
-              </a>
+              <img
+                src={trainingApiLogo}
+                alt="TrainingApi Logo"
+                className="portfolio-logo img-fluid"
+              />
             </div>
 
             <h2 className="h5 mt-4">1. Business Purpose</h2>
             <p>
-              <a
-                href="https://trainingapi.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-link"
-              >
-                TrainingApi<span className="external-icon">&#x2197;</span>
-              </a>{" "}
-              is a platform for delivering virtual instructor‑led technology
-              workshops, helping organisations rapidly develop practical skills
-              and adopt new tools.
+              TrainingApi is a platform for delivering virtual instructor‑led
+              technology workshops, helping organisations rapidly develop
+              practical skills and adopt new tools.
             </p>
             <p>
               It provides a structured catalogue of upcoming sessions, enabling
