@@ -8,10 +8,6 @@ function TrainingApi() {
     <div className="portfolio-container container">
       <div className="row justify-content-center">
         <div className="col-12 col-lg-9">
-          <section className="hero">
-            <h2 className="hero-title">A practical overview of recent work</h2>
-          </section>
-
           <div className="clearfix-custom">
             <div className="logo-container rounded">
               <img

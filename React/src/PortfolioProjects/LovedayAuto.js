@@ -7,12 +7,6 @@ function LovedayAuto() {
     <div className="loveday-portfolio-container container">
       <div className="row justify-content-center">
         <div className="col-12 col-lg-9">
-          <section className="hero">
-            <h2 className="loveday-hero-title">
-              A practical overview of recent work
-            </h2>
-          </section>
-
           <div className="loveday-clearfix-custom">
             <div className="loveday-logo-container rounded">
               <img
