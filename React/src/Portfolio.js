@@ -20,19 +20,20 @@ function Portfolio() {
 
       {currentPage === 0 ? <LovedayAuto /> : <TrainingApi />}
 
+      {/* Pagination Navigation */}
       <div className="row justify-content-center portfolio-pagination-nav">
         <div className="col-12 col-lg-9 d-flex justify-content-between align-items-center">
           {currentPage === 0 ? (
             <>
               <span className="portfolio-pagination-hidden">
-                &larr; TrainingApi
+                &larr; Loveday Auto Repairs
               </span>
               <button
                 type="button"
                 className="portfolio-pagination-link"
                 onClick={() => setCurrentPage(1)}
               >
-                Loveday Auto Repairs &rarr;
+                TrainingApi &rarr;
               </button>
             </>
           ) : (
@@ -42,10 +43,10 @@ function Portfolio() {
                 className="portfolio-pagination-link"
                 onClick={() => setCurrentPage(0)}
               >
-                &larr; TrainingApi
+                &larr; Loveday Auto Repairs
               </button>
               <span className="portfolio-pagination-hidden">
-                Loveday Auto Repairs &rarr;
+                TrainingApi &rarr;
               </span>
             </>
           )}
