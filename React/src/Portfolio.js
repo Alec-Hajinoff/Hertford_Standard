@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <>
       <LovedayAuto />
-      
+
       <TrainingApi />
     </>
   );
