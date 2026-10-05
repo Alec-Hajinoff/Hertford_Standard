@@ -1,11 +1,15 @@
 import React from "react";
-// COMMENT: Imported the TrainingApi component from the new PortfolioProjects folder
+// COMMENT: Imported both project components from the PortfolioProjects folder
+import LovedayAuto from "./PortfolioProjects/LovedayAuto";
 import TrainingApi from "./PortfolioProjects/TrainingApi";
 
 function Portfolio() {
   return (
-    // COMMENT: Replaced the inline project markup with the TrainingApi component call
-    <TrainingApi />
+    <>
+      <LovedayAuto />
+      
+      <TrainingApi />
+    </>
   );
 }
 
