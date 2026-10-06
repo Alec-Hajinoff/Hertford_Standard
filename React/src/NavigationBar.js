@@ -43,9 +43,7 @@ function NavigationBar({ isAuthenticated, isLoading, userRole }) {
                 )}
             </div>
           </div>
-          <div className="col-12 col-md-3">
-            {/* An empty column to match the header layout */}
-          </div>
+          <div className="col-12 col-md-3"></div>
         </div>
       </div>
     </nav>
