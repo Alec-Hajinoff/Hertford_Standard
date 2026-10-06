@@ -19,7 +19,7 @@ function TrainingApi() {
 
             <h2 className="h5 mt-4">1. Business Purpose</h2>
             <p>
-              TrainingApi is a platform for delivering virtual instructor‑led
+              TrainingApi is a platform for delivering virtual instructor-led
               technology workshops, helping organisations rapidly develop
               practical skills and adopt new tools.
             </p>
@@ -30,7 +30,7 @@ function TrainingApi() {
             </p>
 
             <h2 className="h5 mt-4">2. My Role</h2>
-            <p>I designed and built the system end‑to‑end.</p>
+            <p>I designed and built the system end-to-end.</p>
             <p>
               The current MVP demonstrates the feasibility of aggregating,
               standardising, and delivering virtual workshops through a unified,
@@ -41,28 +41,28 @@ function TrainingApi() {
             <h2 className="h5 mt-4">3. Technical Highlights</h2>
             <p>
               The platform uses a React frontend, PHP backend, and MySQL
-              database, built around an API‑first architecture that supports
+              database, built around an API-first architecture that supports
               both the internal UI and external integrations with corporate
               Learning Management Systems (LMS).
             </p>
             <p>
               This approach enables data ingestion from external providers and
-              allows non‑technical users—such as training managers—to interact
-              with the system through a clean, UI‑driven workflow.
+              allows non-technical users—such as training managers—to interact
+              with the system through a clean, UI-driven workflow.
             </p>
 
             <h2 className="h5 mt-4">4. Key Features</h2>
             <ul>
               <li>
-                <strong>Structured catalogue</strong> - of instructor‑led
+                <strong>Structured catalogue</strong> - of instructor-led
                 virtual workshops with detailed metadata
               </li>
               <li>
-                <strong>Display options</strong> - chronological or card‑based
+                <strong>Display options</strong> - chronological or card-based
                 display of upcoming sessions
               </li>
               <li>
-                <strong>Skill‑gap requests</strong> - submission when no
+                <strong>Skill-gap requests</strong> - submission when no
                 suitable programme exists
               </li>
               <li>
@@ -75,7 +75,7 @@ function TrainingApi() {
               </li>
               <li>
                 <strong>Administrative interface</strong> - for providers, with
-                platform‑level review to ensure consistency and quality
+                platform-level review to ensure consistency and quality
               </li>
             </ul>
 
@@ -84,7 +84,7 @@ function TrainingApi() {
             <ul>
               <li>
                 <strong>Immediate access</strong> - to a curated catalogue of
-                practical, instructor‑led workshops
+                practical, instructor-led workshops
               </li>
               <li>
                 <strong>Custom requests</strong> - ability to request custom
