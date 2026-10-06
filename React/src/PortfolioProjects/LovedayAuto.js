@@ -9,20 +9,35 @@ function LovedayAuto() {
         <div className="col-12 col-lg-9">
           <div className="loveday-clearfix-custom">
             <div className="loveday-logo-container rounded">
-              <img
-                src={lovedayAutoLogo}
-                alt="Loveday Auto Logo"
-                className="loveday-portfolio-logo img-fluid"
-              />
+              <a
+                href="https://lovedayauto.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="loveday-inline-link"
+              >
+                <img
+                  src={lovedayAutoLogo}
+                  alt="Loveday Auto Logo"
+                  className="loveday-portfolio-logo img-fluid"
+                />
+              </a>
             </div>
 
             <h2 className="h5 mt-4">1. Business Purpose</h2>
             <p>
-              Loveday Auto Repairs is an auto repair garage that traditionally
-              manages customer bookings through telephone calls and walk-ins. I
-              developed a web application to complement this existing process by
-              providing an automated online booking and appointment management
-              system.
+              <a
+                href="https://lovedayauto.co.uk/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="loveday-inline-link"
+              >
+                Loveday Auto Repairs
+                <span className="loveday-external-icon">&#x2197;</span>
+              </a>{" "}
+              is an auto repair garage that traditionally manages customer
+              bookings through telephone calls and walk-ins. I developed a web
+              application to complement this existing process by providing an
+              automated online booking and appointment management system.
             </p>
             <p>
               The application allows customers to learn about the garage,
