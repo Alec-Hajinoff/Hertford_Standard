@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Portfolio.css";
 import LovedayAuto from "./PortfolioProjects/LovedayAuto";
 import TrainingApi from "./PortfolioProjects/TrainingApi";
 
 function Portfolio() {
   const [currentPage, setCurrentPage] = useState(0);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentPage]);
 
   return (
     <div className="portfolio-hero-container container">
