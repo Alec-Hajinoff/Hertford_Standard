@@ -40,7 +40,7 @@ function MainRegLog() {
 
         <div className="col-12 col-lg-3 sticky-sidebar">
           <p className="section-divider">
-            New client? Please register:
+            New client? Register here:
             <span className="custom-tooltip-wrapper" ref={tooltipRef}>
               <button
                 type="button"
@@ -52,15 +52,15 @@ function MainRegLog() {
               </button>
               {showTooltip && (
                 <span className="custom-tooltip-content">
-                  Registered clients can submit requirements with text and files,
-                  request changes as work progresses, and track every update
-                  through a clear, chronological timeline.
+                  Registered clients can submit requirements with text and
+                  files, request changes as work progresses, and track every
+                  update through a clear, chronological timeline.
                 </span>
               )}
             </span>
           </p>
           <UserRegistration />
-          <p className="section-divider">Existing client? Please login:</p>
+          <p className="section-divider">Existing client? Log in here:</p>
           <UserLogin />
         </div>
       </div>
