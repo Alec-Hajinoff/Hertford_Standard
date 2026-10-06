@@ -7,7 +7,7 @@ function RegisteredPage() {
     <div className="registered-page-wrapper">
       <div className="container text-center">
         <div className="row">
-          <div className="col-12 text-center my-4">
+          <div className="col-12 text-center">
             <p className="w-100 whitespace-nowrap">
               Thank you for verifying your email address! Please log in using
               your credentials.
