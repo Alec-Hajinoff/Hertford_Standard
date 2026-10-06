@@ -1,10 +1,17 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import "./Portfolio.css";
 import LovedayAuto from "./PortfolioProjects/LovedayAuto";
 import TrainingApi from "./PortfolioProjects/TrainingApi";
 
 function Portfolio() {
-  const [currentPage, setCurrentPage] = useState(0);
+  const [searchParams, setSearchParams] = useSearchParams();
+  const projectParam = searchParams.get("project");
+  const currentPage = projectParam ? parseInt(projectParam, 10) : 0;
+
+  const handlePageChange = (newPage) => {
+    setSearchParams({ project: newPage });
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -31,10 +38,11 @@ function Portfolio() {
               <span className="portfolio-pagination-hidden">
                 &larr; Loveday Auto Repairs
               </span>
+
               <button
                 type="button"
                 className="portfolio-pagination-link"
-                onClick={() => setCurrentPage(1)}
+                onClick={() => handlePageChange(1)}
               >
                 TrainingApi &rarr;
               </button>
@@ -44,10 +52,11 @@ function Portfolio() {
               <button
                 type="button"
                 className="portfolio-pagination-link"
-                onClick={() => setCurrentPage(0)}
+                onClick={() => handlePageChange(0)}
               >
                 &larr; Loveday Auto Repairs
               </button>
+
               <span className="portfolio-pagination-hidden">
                 TrainingApi &rarr;
               </span>
