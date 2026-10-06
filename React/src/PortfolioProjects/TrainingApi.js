@@ -47,7 +47,7 @@ function TrainingApi() {
             </p>
             <p>
               This approach enables data ingestion from external providers and
-              allows non-technical usersÔÇösuch as training managersÔÇöto interact
+              allows non-technical users such as training managers to interact
               with the system through a clean, UI-driven workflow.
             </p>
 
