@@ -20,7 +20,6 @@ function Portfolio() {
 
       {currentPage === 0 ? <LovedayAuto /> : <TrainingApi />}
 
-      {/* Pagination Navigation */}
       <div className="row justify-content-center portfolio-pagination-nav">
         <div className="col-12 col-lg-9 d-flex justify-content-between align-items-center">
           {currentPage === 0 ? (
