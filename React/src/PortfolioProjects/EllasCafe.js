@@ -1,6 +1,7 @@
 import React from "react";
 import "./EllasCafe.css";
-// import ellasCafeLogo from "../Images/Ellas_Cafe_Logo.svg";
+
+import ellasCafeLogo from "../Images/Ellas_Cafe_Logo.jpg";
 
 function EllasCafe() {
   return (
@@ -15,11 +16,11 @@ function EllasCafe() {
                 rel="noopener noreferrer"
                 className="ellas-inline-link"
               >
-                {/*<img
+                <img
                   src={ellasCafeLogo}
                   alt="Ella's Café Logo"
                   className="ellas-portfolio-logo img-fluid"
-                />*/}
+                />
               </a>
             </div>
 
