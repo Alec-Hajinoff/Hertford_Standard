@@ -1,0 +1,84 @@
+.ellas-portfolio-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.ellas-portfolio-container h2 {
+  color: var(--color-primary-500);
+}
+
+.ellas-portfolio-container p,
+.ellas-portfolio-container ul {
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  margin-bottom: 16px;
+}
+
+.ellas-portfolio-container ul {
+  padding-left: 20px;
+}
+
+.ellas-portfolio-container li {
+  margin-bottom: 8px;
+}
+
+.ellas-logo-container {
+  float: left;
+  margin: 0 20px 10px 0;
+  max-width: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.ellas-portfolio-logo {
+  display: block;
+  width: 200%;
+  height: auto;
+}
+
+.ellas-logo-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+}
+
+.ellas-clearfix-custom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ellas-inline-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ellas-external-icon {
+  font-size: 0.75rem;
+  margin-left: 2px;
+  vertical-align: super;
+  display: inline-block;
+}
+
+.ellas-inline-link:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.ellas-github-inspection-block {
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+  .ellas-portfolio-logo {
+    float: none;
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+  }
+}
